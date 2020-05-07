@@ -2,7 +2,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-family: sans-serif, Arial, Helvetica, 'Courier New', Courier, monospace;
     text-align: center;
     height: 100vh;
     background-color: whitesmoke;
@@ -41,6 +41,13 @@ input {
 #lists li {
     list-style: none;
     text-align: left;
+}
+
+.listButton {
+    list-style: none;
+    text-align: left;
+    background-color: red;
+    color: whitesmoke
 }
 
 #addSkill {
