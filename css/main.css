@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+h1 {
+    margin: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(148,196,126);
+    width: 400px;
+    font-size: 20px;
+}
+
+ul {
+    color: orange;
+    text-align: center;
+}
+
+input {
+    height: 25px;
+    border-color: rgb(148,196,126);
+    border-style: solid;
+    border-width: 3px;
+    color: orange;
+    width: 60%;
+}
+
+#lists {
+    display: flex;
+    flex-direction: column;
+}
+
+#lists li {
+    list-style: none;
+    text-align: left;
+}
+
+#addSkill {
+    width: 28%;
+    margin-left: 5%;
+    background-color: white;
+    border-color: rgb(148,196,126);
+    border-style: solid;
+    border-width: 3px;
+}
